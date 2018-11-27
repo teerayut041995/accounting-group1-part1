@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2018 at 05:58 AM
+-- Generation Time: Nov 27, 2018 at 05:51 AM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.11
 
@@ -80,19 +80,13 @@ CREATE TABLE `tb_book` (
 --
 
 INSERT INTO `tb_book` (`id`, `date`, `detail`, `acc_id`, `cost`, `status`) VALUES
-(6, '2018-11-01', '', 10, '40000.00', 'debit'),
-(8, '2018-11-01', '', 11, '60000.00', 'debit'),
-(9, '2018-11-01', '', 16, '50000.00', 'debit'),
-(10, '2018-11-01', '', 20, '400000.00', 'debit'),
-(11, '2018-11-01', '', 22, '60000.00', 'credit'),
-(12, '2018-11-01', '', 26, '490000.00', 'credit'),
-(14, '2018-11-01', 'บันทึกการลงทุนของนายนคร', 0, '0.00', ''),
-(15, '2018-11-05', '', 10, '3000.00', 'debit'),
-(16, '2018-11-05', '', 28, '3000.00', 'credit'),
-(17, '2018-11-05', 'รับเงินค่าซ่อมโทรทัศน์', 0, '0.00', ''),
-(18, '2018-11-08', '', 16, '12000.00', 'debit'),
-(19, '2018-11-08', '', 22, '12000.00', 'credit'),
-(20, '2018-11-08', 'ซ์้ออุปกรณ์เป็นเงินเชื่อ', 0, '0.00', '');
+(21, '2018-11-01', '', 10, '40000.00', 'debit'),
+(22, '2018-11-01', '', 11, '600000.00', 'debit'),
+(23, '2018-11-01', '', 16, '50000.00', 'debit'),
+(24, '2018-11-01', '', 20, '400000.00', 'debit'),
+(25, '2018-11-01', '', 22, '60000.00', 'credit'),
+(26, '2018-11-01', '', 26, '490000.00', 'credit'),
+(27, '2018-11-01', 'บันทึกการลงทุนของนายนคร', 0, '0.00', '');
 
 --
 -- Indexes for dumped tables
@@ -125,7 +119,7 @@ ALTER TABLE `tb_account_number`
 -- AUTO_INCREMENT for table `tb_book`
 --
 ALTER TABLE `tb_book`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

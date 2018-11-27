@@ -17,7 +17,10 @@ if (isset($_GET['action']) && $_GET['action']=="update") {
 }
 
 if (isset($_GET['action']) && $_GET['action']=="delete") {
-  
+  $id = $_GET['id'];
+  $sql = "DELETE FROM tb_book WHERE id = $id";
+  $result = mysqli_query($conn , $sql);
+  header("location: ../index.php");
 }
 
 ?>
